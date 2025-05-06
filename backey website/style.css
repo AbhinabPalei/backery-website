@@ -1,0 +1,348 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.hero-section{
+    background-image: url("./assets/Rectangle\ 10.png");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.hero-section .list{
+    font-size: 1.5vw !important;
+    font-weight: 600;
+}
+.hero-section .Hero-content{
+    color: white;
+    height: 80vh;
+}
+.hero-section .Hero-content .Cafe{
+    color: #e9bd8c;
+    font-size: 2vw;
+}
+.hero-section .Hero-content .Sweet-Treats{
+    font-family: "Sansita Swashed", system-ui;
+    font-size: 5vw;
+}
+.hero-section .btn-sec{
+    margin-top: 80px;
+}
+.hero-section .btn-sec .Shop-btn{
+    background-color: #933c24;
+    padding: 1% 4%;
+    font-size: 1.8vw;
+}
+.hero-section .btn-sec .Learn-btn{
+    color: #e9bd8c;
+    padding: 1% 4%;
+    font-size: 1.8vw;
+}
+
+/* top product */
+.top-product-heading-div .product-hrading{
+    font-family: "Sansita Swashed", system-ui;
+    font-size: 3.5vw;
+}
+
+.card-bg{
+    background-image: url("./assets/card-bg.jpg");
+    height: 450px !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 2rem;
+}
+
+.card-bg .food-img{
+    width: 75%;
+}
+
+.card-bg .food-img-4,
+.card-bg .food-img-5{
+    width: 60%;
+}
+
+.card-bg .info{
+    font-size: 2vw;
+}
+
+.card-bg .food-name{
+    font-size: 2vw;
+}
+
+.card-bg .Add-btn{
+    background-color: #933c24;
+}
+
+.twenty-off-div{
+    width: 100%;
+    height: 50vh;
+    background-image: url(./assets/twenty-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+
+}
+
+.twenty-off-div .twenty-off-content-div{
+    height: 100%;
+}
+
+.twenty-off-div .twenty-off-content-div .twenty-heading{
+    font-size: 2.5vw;
+    font-family: "Sansita Swashed", system-ui;
+    color: #933c24;
+}
+
+.twenty-off-div .twenty-off-content-div .twenty-para{
+    font-size: 1.3vw;
+    color: #505d5d;
+}
+
+.twenty-off-div .twenty-off-content-div .twenty-btn{
+    padding: 1% 4%;
+    background-color: #933c24;
+    color: white;
+    font-size: 1.2vw;
+}
+
+.explore-main-div{
+  margin: 20px 0;
+}
+
+.explore-main-div .explore-heading{
+    font-family: "Sansita Swashed", system-ui;
+    font-size: 3.5vw;
+    text-align: center;
+}
+
+.explore-main-div .list-div{
+    margin-top: 50px;
+}
+
+.explore-main-div .list-ul{
+    gap: 40px;
+}
+
+.explore-main-div .list-div .list-ul .list, .list1{
+    font-size: 1.5vw;
+    font-weight: 600;
+    color: #5D5D5D;
+    padding: 2px;
+}
+
+.explore-main-div .list-div .list-ul  .list1{
+    border-bottom: 5px solid red;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+.about-us-div{
+    width: 100%;
+    height: 50vh;
+    background-image: url(./assets/about-us.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+
+}
+
+.about-us-div .about-content-div{
+    height: 100%;
+}
+
+.about-us-div .about-content-div .about-heading{
+    font-size: 2.5vw;
+    font-family: "Sansita Swashed", system-ui;
+    color: white;
+}
+
+.about-us-div .about-content-div .about-para{
+    font-size: 1.3vw;
+    color: #B9B9B9;
+    
+}
+
+.about-us-div .about-content-div .about-btn{
+    padding: 1% 3%;
+    background-color: #933c24;
+    color: white;
+    font-size: 1.2vw;
+}
+
+.featured-treats-div {
+    width: 100%;
+}
+
+.featured-treats-div .featured-heading{
+    font-family:"Sansita Swashed", system-ui;
+    font-size: 3.5vw;
+    text-align: center;
+}
+
+.footer{
+    background-image: url("./assets/footer-bg.png");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.footer .footer-icon{
+    width: 20%;
+}
+
+.footer .follow-us-div .follow-heading{
+    color: #e9bd8d;
+    font-size: 2vw;
+}
+
+.footer .follow-us-div .follow-icon{
+    width: 30%;
+}
+
+.footer .Aboutus-div .about-heading, .recent-div .recent-heading{
+    color: #e9bd8d;
+    font-size: 2vw;
+}
+
+.footer .Aboutus-div .list{
+    color: white;
+    font-size: 1.2vw;
+    margin-top: 30px;
+    line-height: 40px;
+}
+
+.footer .recent-div .data-heading p{
+    color: #e9bd8c;
+}
+
+.footer .recent-div .data-heading h4{
+    color: white;
+}
+
+.footer .copyright{
+    color: #737373;
+    font-size: 1.2vw;
+}
+
+@media screen and (max-width:600px){
+    .hero-section .list-div{
+       display: none !important; 
+    }
+    .hero-section .Hero-content .Cafe{
+        font-size: 7vw;
+    }
+    .hero-section .Hero-content .Sweet-Treats{
+        font-size: 13vw;
+    }
+    .hero-section .btn-sec .Shop-btn{
+        font-size: 5vw;
+    }
+    .hero-section .btn-sec .Learn-btn{
+        font-size: 5vw;
+    }
+
+    .top-product-heading-div .product-hrading{
+        font-size: 6vw;
+    }
+    .card-bg .price{
+        font-size: 7vw;
+    }
+    .card-bg .info{
+        font-size: 7vw;
+    }
+    .card-bg .food-name{
+        font-size: 8vw;
+    }
+
+    .twenty-off-div{
+        height: 30vh;
+        margin-top:20px ;
+        margin-bottom: 40px;
+        
+    }
+
+    .twenty-off-div .twenty-off-content-div .twenty-heading{
+        font-size: 8vw;
+        
+    }
+
+    .twenty-off-div .twenty-off-content-div .twenty-para{
+        font-size: 3.5vw;
+        
+    }
+
+    .twenty-off-div .twenty-off-content-div .twenty-btn{
+        font-size: 3.3vw;
+    }
+    .explore-main-div .explore-heading{
+        font-size: 8vw;  
+    }
+    .explore-main-div .list-ul{
+        gap: 20px;
+    }
+    .explore-main-div .list-div .list-ul .list, .list1{
+        font-size: 3vw;
+    }
+    .about-us-div{
+        height: 30vh;
+        margin-top:20px ;
+        margin-bottom: 40px;
+    
+    }
+    
+    .about-us-div .about-content-div .about-heading{
+        font-size: 8vw;
+    }
+
+    .about-us-div .about-content-div .about-para{
+        font-size: 3.5vw;
+        
+    }
+    .about-us-div .about-content-div .about-btn{
+        font-size: 3.3vw;
+    }
+
+    .featured-treats-div .featured-heading{
+        font-size: 7.5vw;
+    }
+
+    .footer .follow-us-div .follow-icon{
+        width: 20%;
+        height: 90%;
+    }
+
+    .footer .follow-us-div .follow-heading{
+        font-size: 5vw;
+    }
+
+    .footer .Aboutus-div .about-heading, .recent-div .recent-heading{
+        font-size: 6vw;
+    }
+    
+    .footer .Aboutus-div .list{
+    font-size: 3.5vw;
+    }
+
+    .footer .copyright{
+        font-size: 4vw;
+    }
+    
+
+}
+@media screen and (min-width:601px){
+    .hero-section .icon-div{
+        display: none !important;
+    }
+    
+}
+
